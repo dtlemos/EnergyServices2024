@@ -256,8 +256,8 @@ freatures, combinations or transformations applied to these features can be usef
 
 items = [
     "Power (-1) - information of the previous hour power consumption is given to the model;",
-    "Holiday/Weekend - its 1 when is holiday or weekend day",
-    "Hour Sin/Cos - transorming the hour of the day according to trigonometric function (periodic features can perform better)",
+    "Holiday/Weekend - it is 1 when is holiday or weekend day",
+    "Hour Sin/Cos - transforming the hour of the day according to trigonometric function (periodic features can perform better)",
     "[Feature] RM - 2H - corresponds to a rolling mean average of the previous 2 hours",
     "[Feature] RM - 4H - corresponds to a rolling mean average of the previous 4 hours",
     "[Feature] RStd - 2H - corresponds to a rolling standard deviation average of the previous 2 hours",
