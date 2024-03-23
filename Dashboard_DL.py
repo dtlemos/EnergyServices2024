@@ -14,8 +14,8 @@ from sklearn import  linear_model
 from sklearn.neural_network import MLPRegressor
 from sklearn.tree import DecisionTreeRegressor
 
-#path = 'C:/Users/leopa/Documents/2º Semestre/SEne/Projecto2/'
 path = ''
+server = app.server
 
 testDataFile = 'forecast_data.csv'
 df_test = pd.read_csv(path + testDataFile)
