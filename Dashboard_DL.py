@@ -15,7 +15,7 @@ from sklearn.neural_network import MLPRegressor
 from sklearn.tree import DecisionTreeRegressor
 
 path = ''
-server = app.server
+
 
 testDataFile = 'forecast_data.csv'
 df_test = pd.read_csv(path + testDataFile)
@@ -279,6 +279,7 @@ which evaluate model performance.
 
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP],suppress_callback_exceptions=True)
+server = app.server
 
 navbar = dbc.NavbarSimple(
     children=[
